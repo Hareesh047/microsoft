@@ -1,0 +1,54 @@
+.footer {
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+ .whatsnew {
+    line-height: 2.5;
+    text-align: left;
+    color: #616161;
+    font-size: 15px;
+    font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+ }
+
+ .bottom {
+    width: 95%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .lang {
+    width: 20px;
+    height: 20px;
+ }
+
+ .language {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    padding: 10px;
+    color: #616161;
+    font-size: 11px;
+    align-items: center;
+
+ }
+
+ .contact {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: #616161;
+    font-size: 11px;
+ }
+ a {
+    color: #616161;
+ }

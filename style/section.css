@@ -1,0 +1,111 @@
+section{
+    
+    background-image:url("/microsoft/icons/microsoft\ laptop.jpeg");
+    height: 600px;
+    cursor: pointer;
+}
+
+.surface9  {
+    display: flex;
+    flex-direction: column;
+
+height: 400px;
+width: 45%;
+margin-left: 30px;
+padding-left: 50px;
+padding-top: 120px;
+line-height: 1.5;
+
+
+}
+
+.p1 {
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: white;
+    color: rgb(235, 88, 88);
+    width: 50px;
+    padding-left:10px;
+
+}
+
+.surface {
+    font-size: 1.823rem;
+    font-weight: 600;
+    line-height: 1.2;
+
+}
+
+.learn {
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.service {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+    margin: auto;
+
+}
+
+.windowicon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+.windowsicon {
+
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 50px;
+
+}
+.tableticon {
+
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 50px;
+
+}
+.xboxicon {
+
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 38px;
+
+}
+.getwindowicon {
+
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 20px;
+
+}
+
+.laptops {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    line-height: 1;
+    cursor: pointer;
+    
+}
+
+.p2 {
+    line-height:1.5;
+}
+
